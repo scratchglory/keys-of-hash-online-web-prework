@@ -6,7 +6,7 @@ class Hash
     self.each do |key, value|   # using self to call upon the hash 
       if arguments.include?(value)
         arr << key
-      binding.pry
+      # binding.pry
       end
     end
     arr
